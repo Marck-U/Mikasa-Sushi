@@ -1,0 +1,63 @@
+/* Editar perfil */
+.info-perfil {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.info-perfil-content {
+  margin: 10px;
+  width: 50%;
+  height: 90%;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c9c9c9;
+  -webkit-box-shadow: -1px 0px 16px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 16px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 0px 16px 0px rgba(0, 0, 0, 0.75);
+  padding: 20px 50px 0 50px;
+}
+
+table.profile-data-table tr:last-child {
+  border: none;
+}
+
+.info-perfil-content label.lbl_inputs_perfil {
+  color: black;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 992px) {
+  .info-perfil-content {
+    width: 80%;
+    height: 100%;
+    padding: 20px 50px 0 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .info-perfil-content {
+    margin: 5px;
+    width: 96%;
+    height: 100%;
+    padding: 20px 35px 0 35px;
+  }
+}
+
+.input-field-telefono {
+  position: relative;
+  padding: 0;
+}
+
+.telefono-lbl-input {
+  position: absolute;
+  top: 15px;
+  width: 40px;
+}
+
+#txt_telefono {
+  padding: 0 0 0 40px;
+  box-sizing: border-box;
+}

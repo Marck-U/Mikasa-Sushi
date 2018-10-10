@@ -1,0 +1,185 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-login {
+  height: 9% !important;
+  position: absolute !important;
+}
+
+/* Diseño Navbar */
+
+.font-logo {
+  font-family: "Shojumaru", cursive;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.nav-ul-options {
+  padding: auto;
+  margin-right: 20px;
+}
+
+/* ------------------------------------------- */
+
+.btn-registro {
+  width: 100%;
+}
+
+.botones-registro {
+  margin-top: 55px;
+}
+
+.btn-div {
+  margin: 16px 0 16px 0;
+}
+
+.input-div {
+  margin: 30px 0 15px 0;
+}
+
+/* ----------------Líneas-------------------- */
+
+.linea {
+  display: flex;
+  align-items: center;
+}
+
+.header-line {
+  font-size: 18px;
+  padding: 0 10px 0 10px;
+}
+
+.hr1 {
+  border: 0;
+  height: 1px;
+  background-color: black;
+  margin: auto;
+  width: 45%;
+}
+
+.hr2 {
+  border: 0;
+  border-radius: 5%;
+  height: 1px;
+  background-color: black;
+  margin: auto;
+  width: 46.5%;
+}
+
+/* -------------------------- */
+
+.full-page {
+  margin-bottom: 0 !important;
+}
+
+.div-info {
+  height: 100%;
+}
+
+.right-background {
+  background-image: url(../src/img/background-login.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.right-background:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.content-info {
+  top: 20%;
+  position: relative;
+}
+
+.content-tittle {
+  font-size: 150%;
+  color: yellow;
+}
+
+.content-text {
+  padding: 20px 0 20px 0;
+}
+
+.full-page,
+#brandingWrapper {
+  width: 100%;
+  height: 100%;
+}
+
+#contentWrapper {
+  height: 100%;
+  overflow: auto;
+  padding: 0;
+}
+
+.content-form {
+  margin-top: 17% !important;
+  margin-bottom: 20px;
+}
+
+/* ------------------------------- */
+
+.modal-login {
+  max-height: 100% !important;
+  max-width: 100% !important;
+  width: 450px !important;
+  padding: 0 30px 0 30px !important;
+}
+
+.close-modal {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  font-weight: 600;
+  height: 23px;
+  width: 23px;
+  background-color: red;
+  border-radius: 50px;
+  color: #ffff;
+  -webkit-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+.close-modal p {
+  height: 23px;
+  padding: 4px;
+}
+
+.btn-login {
+  width: 100%;
+}
+
+.botones-login {
+  margin-top: 55px;
+}
+
+.btn-div {
+  margin: 16px 0 16px 0;
+}
+
+.input-div {
+  margin: 30px 0 15px 0;
+}

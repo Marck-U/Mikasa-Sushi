@@ -1,0 +1,436 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+p {
+  padding: auto;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 640px) {
+  p {
+    font-size: 1rem;
+  }
+}
+
+/* Diseño Navbar */
+
+nav {
+  font-weight: 600;
+}
+
+.nav-ul-options {
+  padding: auto;
+  margin-right: 20px;
+}
+
+.navbar-login {
+  position: absolute !important;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar-register ul li a {
+  color: black;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar-login {
+    position: fixed !important;
+    background: #ffff;
+  }
+}
+
+.logo-nav-img {
+  position: absolute;
+  top: 0;
+  background-color: white;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 640px) {
+  .logo-nav-img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.nav-image {
+  width: 125px;
+  height: 49%;
+  padding: 5px;
+  position: absolute;
+  top: 25%;
+}
+
+@media only screen and (max-width: 640px) {
+  .nav-image {
+    width: 100px;
+  }
+}
+
+.nav-image-no-circle {
+  width: 130px;
+  height: 100%;
+  padding: 2px;
+  margin: 0 20px 0 20px;
+}
+
+/* ------------------------------------------- */
+
+/* Parallax design */
+
+.slider {
+  height: 90% !important;
+}
+
+.slider > .left-arrow-slider {
+  position: absolute;
+  z-index: 500;
+  color: #ffff;
+  left: 2%;
+  top: 43%;
+}
+
+.left-arrow-slider:hover {
+  color: #ff0000;
+}
+
+.slider > .rigth-arrow-slider {
+  position: absolute;
+  z-index: 500;
+  color: #ffff;
+  right: 2%;
+  top: 43%;
+}
+
+.rigth-arrow-slider:hover {
+  color: #ff0000;
+}
+
+.slides {
+  height: 100% !important;
+}
+
+.captioner:after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: black;
+  z-index: 100;
+}
+/*  */
+.parallax-text {
+  font-weight: 600;
+  text-shadow: 2px 0px 0px rgba(150, 150, 150, 1);
+}
+
+/* ------------------------------------------- */
+
+.servicios-p-text {
+  padding: 25px;
+  text-align: center;
+}
+
+/* ------------------------------------------- */
+
+.linea {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.header-carta-content {
+  font-size: 30px;
+  padding: 0 10px 0 10px;
+}
+
+.hr1 {
+  border: 0;
+  height: 1px;
+  margin: auto;
+  width: 45%;
+}
+
+.hr2 {
+  border: 0;
+  border-radius: 5%;
+  height: 1px;
+  margin: auto;
+  width: 46.5%;
+}
+
+/* Carta */
+
+.descuento {
+  background-color: #ff0000;
+  position: absolute;
+  z-index: 2;
+  height: 74px;
+  width: 74px;
+  right: 4px;
+  top: 4px;
+  border-radius: 50%;
+}
+
+.descuento p {
+  font-size: 25px;
+  margin: 0;
+  height: 74px;
+  padding: 20px 0 15px 0;
+  color: white;
+}
+
+.carta-index {
+  padding: 15px;
+}
+
+/* Contacto index */
+
+.div-map {
+  overflow: hidden;
+  width: auto;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+
+.contacto {
+  padding: 15px;
+}
+
+.contact-rectangulo {
+  padding: 5px !important;
+}
+
+/*  */
+
+/* Login style */
+
+.btn-registro {
+  width: 100%;
+}
+
+.botones-registro {
+  margin-top: 45px;
+}
+
+.btn-div {
+  margin: 16px 0 16px 0;
+}
+
+.input-div {
+  margin: 30px 0 15px 0;
+}
+
+/* -------------------------- */
+
+/* Registro */
+
+.full-page {
+  margin-bottom: 0 !important;
+  height: 100%;
+}
+
+.div-info {
+  height: 100%;
+  position: relative;
+  top: 0;
+}
+
+.div-info * {
+  margin: 0;
+  padding: 0;
+}
+
+.div-info * .btn {
+  padding: 0 16px;
+}
+
+.right-background {
+  background-image: url(../img/background-register.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 0;
+}
+
+.right-background:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.content-info {
+  top: 20%;
+  position: relative;
+  margin: 0 70px;
+}
+
+.content-tittle {
+  font-size: 150%;
+  color: yellow;
+}
+
+.content-text {
+  text-align: justify;
+  padding: 20px 0 20px 0;
+}
+
+.full-page,
+#brandingWrapper {
+  width: 100%;
+  height: 100%;
+}
+
+#contentWrapper {
+  height: 100%;
+  overflow: auto;
+  padding: 0;
+}
+
+.content-form {
+  margin-top: 17% !important;
+  padding: 0 10% 0 10%;
+}
+
+/* LOGIN */
+
+.full-page-login {
+  background-image: url(../img/background-login-1.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 0 !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .full-page-login {
+    background-image: none;
+    background: #ffff;
+  }
+}
+
+.content-info-login {
+  position: absolute;
+  left: 33.33%;
+  top: 10%;
+  background-color: white;
+  height: auto;
+  border-radius: 3px;
+}
+
+@media only screen and (max-width: 992px) {
+  .content-info-login {
+    position: static;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.form-login {
+  padding: 30px 35px 30px 35px;
+}
+
+@media only screen and (max-width: 992px) {
+  .form-login {
+    position: static;
+    width: 100%;
+    height: 100%;
+    padding: 60px 30px;
+  }
+}
+
+.btn-login {
+  width: 100%;
+}
+
+.botones-login {
+  margin-top: 50px;
+}
+
+.btn-div {
+  margin: 10px 0 10px 0;
+}
+
+.input-div {
+  margin: 20px 0 15px 0;
+}
+
+/* About */
+
+.content-about {
+  position: relative;
+  min-height: 68%;
+}
+.quienes-somos {
+  padding: 10px;
+}
+
+.tittle-about {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+.quienes-somos .content-quienes-somos {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+/* ----------------------------------- */
+.section-menu {
+  overflow: hidden;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-section-menu {
+  padding: 20px 0 0 0;
+}
+
+.card img {
+  height: 280px;
+}
+
+@media only screen and (max-width: 640px) {
+  .card {
+    width: 300px;
+  }
+  .card img {
+    height: 200px;
+  }
+  .card .card-action {
+    padding: 15px 0;
+  }
+}
+
+.login-admin {
+  background-image: url(../img/admin-background.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
